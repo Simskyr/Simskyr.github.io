@@ -1,0 +1,29 @@
+body{
+        background-color:PowderBlue;
+    
+}
+h2{
+    text-align:center; font-size:27px; font-family:"Playfair Display SC", serif; Color:rgb(20,200,130); background-color:rgba(110,30,185,0.75);
+}
+h1{
+    font-size:38px; font-family:"Baloo Tammudu",serif; Color:rgb(20,200,130);
+    
+}
+#lih{
+    font-size:25px; font-family: 'Luckiest Guy', cursive; color:#303050; text-decoration: underline; line-height: 50px; list-style-type: square;
+}
+    
+li{
+    font-size:18px; font-family: 'Bangers', cursive; color:#303450;
+    
+}
+p{
+    font-size:20px; font-family:"Lobster",serif; color:Seagreen; line-height: 28px;
+    
+}
+ol {
+    list-style-type: lower-alpha;
+}
+ul {
+    list-style-type: square;
+}
