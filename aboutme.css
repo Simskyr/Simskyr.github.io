@@ -96,7 +96,7 @@ a:hover {
 a:active {
     color: Green;
 }
-.li:hover {
-    font-size:18px;
+.list:hover {
+    font-size:42px;
 }
 
