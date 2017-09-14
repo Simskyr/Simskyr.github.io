@@ -2,28 +2,107 @@ body{
         background-color:PowderBlue;
     
 }
-h2{
-    text-align:center; font-size:27px; font-family:"Playfair Display SC", serif; Color:rgb(20,200,130); background-color:rgba(110,30,185,0.75);
-}
-h1{
-    font-size:38px; font-family:"Baloo Tammudu",serif; Color:rgb(20,200,130);
+
+div {
+    margin-left:15%;
+    margin-right:15%;
     
 }
-#lih{
-    font-size:25px; font-family: 'Luckiest Guy', cursive; color:#303050; text-decoration: underline; line-height: 50px; list-style-type: square;
+
+#bk{
+    display:block;
+    border-radius:50%;
+    border:solid rgb(20,220,130) 6px;
+    width:20em;
+    height:20em;
+    margin:auto;
+}  
+#dog{
+    width:13em;
+    height:10em;
+}
+    
+.header{
+    border:solid rgba(20,200,130,.70) 20px;
+    background-color:RGBA(110,30,185,.70);
+    padding:0 30px 30px 30px;
+    margin-top:0;
+    
+}
+.li:hover {
+    font-size:18px;
+}
+.list{
+    padding:0;
+    margin:0;
+    list-style:none;
+    
+}
+
+.topics{
+    
+    font-size:25px; 
+    font-family: 'Luckiest Guy', cursive; 
+    color:#303050; 
+    text-decoration: underline; 
+    line-height: 50px; 
+    list-style-type: square;
+}
+
+h2{
+    text-align:center; 
+    font-size:27px; font-family:"Playfair Display SC", serif; 
+    Color:rgb(20,200,130); 
+    background-color:RGBA(110,30,185,0.65);
+    
+}
+
+h1{
+    font-size:38px; 
+    font-family:"Baloo Tammudu",serif; 
+    Color:rgb(20,200,130);
+    
 }
     
 li{
-    font-size:18px; font-family: 'Bangers', cursive; color:#303450;
+    font-size:18px; 
+    font-family: 'Bangers', cursive; 
+    color:#303450;
+    
     
 }
 p{
-    font-size:20px; font-family:"Lobster",serif; color:Seagreen; line-height: 28px;
+    font-size:20px; 
+    font-family:"Lobster",serif; 
+    color:Seagreen; 
+    line-height: 28px;
     
 }
-ol {
-    list-style-type: lower-alpha;
+
+ol{
+    list-style-type: none;
+    
 }
+
 ul {
     list-style-type: square;
+    
 }
+a:link {
+    color: SeaGreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: Purple;
+}
+
+a:hover {
+    color: Red;
+}
+
+a:active {
+    color: Green;
+}
+
+
