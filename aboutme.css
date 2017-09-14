@@ -29,9 +29,6 @@ div {
     margin-top:0;
     
 }
-.li:hover {
-    font-size:18px;
-}
 .list{
     padding:0;
     margin:0;
@@ -79,11 +76,6 @@ p{
     
 }
 
-ol{
-    list-style-type: none;
-    
-}
-
 ul {
     list-style-type: square;
     
@@ -104,5 +96,7 @@ a:hover {
 a:active {
     color: Green;
 }
-
+.li:hover {
+    font-size:18px;
+}
 
