@@ -2,6 +2,35 @@ body{
         background-color:PowderBlue;
     
 }
+.web {
+    background-color:#18aaa1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-style:double;
+    border-color:black;
+    overflow: hidden;
+
+}
+
+.webs {
+    float: left;
+    margin:0.5px;
+    padding:0px;
+    border:1px;
+    border-style:solid;
+    display:block;
+}
+
+.webs a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.webs a:hover {
+    background-color: #028378;
+}
 
 div {
     margin-left:15%;
@@ -42,7 +71,7 @@ div {
     font-family: 'Luckiest Guy', cursive; 
     color:#303050; 
     text-decoration: underline; 
-    line-height: 50px; 
+    line-height: 50px; z
     list-style-type: square;
 }
 
@@ -97,6 +126,6 @@ a:active {
     color: Green;
 }
 .list:hover {
-    font-size:42px;
+    font-size:px;
 }
 
