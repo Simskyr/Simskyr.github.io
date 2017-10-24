@@ -35,3 +35,7 @@ li a {
 li a:hover {
     background-color: #028378;
 }
+
+a:hover {
+    color: Red;
+}
