@@ -15,7 +15,9 @@ ul {
 #head {
     Color:rgb(20,200,130);
 }
-
+#des {
+    Color:rgb(25,200,180);
+}
 table, th, td {
     border: 4px solid black;
     border-collapse:collapse;
