@@ -12,8 +12,7 @@ ul {
     overflow: hidden;
 
 }
-h1,p {
-    border:solid rgba(20,200,130,.70) 20px;
+#head {
     background-color:RGBA(110,30,185,.70);
     padding:0 30px 30px 30px;
     margin-top:0;
