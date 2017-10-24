@@ -1,5 +1,5 @@
 body {
-    background-color:#28f0ad;
+    background-color:PowderBlue;
     
 }
 ul {
@@ -14,6 +14,7 @@ ul {
 }
 
 li {
+    font-family: 'Bangers', cursive;
     float: left;
     margin:0.5px;
     padding:0px;
