@@ -13,10 +13,12 @@ ul {
 
 }
 .head {
+    font-family: 'Bangers', cursive; 
     Color:rgb(20,200,130);
 }
 .des {
-    Color:rgb(25,200,180);
+    font-family: 'Bangers', cursive; 
+    color:#303450;
 }
 table, th, td {
     border: 4px solid black;
@@ -50,10 +52,23 @@ li a {
     text-decoration: none;
 
 }
+
+a:link {
+    color: SeaGreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: Purple;
+}
+
 li a:hover {
     background-color: #028378;
 }
 
 a:hover {
     color: Red;
+}
+a:active {
+    color: Green;
 }
