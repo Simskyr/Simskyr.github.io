@@ -36,6 +36,18 @@ li a:hover {
     background-color: #028378;
 }
 
+a:link {
+    color: SeaGreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: Purple;
+}
+
 a:hover {
     color: Red;
+}
+a:active {
+    color: Green;
 }
