@@ -4,7 +4,7 @@ $(document).ready(function(){
             height: 'toggle'
         });
     });
-    $(".info").click(function(){
+        $(".info").click(function(){
         $("#info").toggle();
     });
         $(".bio").click(function(){
