@@ -1,0 +1,28 @@
+h1 {
+    padding:1px;
+    background-color:white;
+}
+
+body{
+    background-color:PowderBlue ;
+}
+.container{
+    background-color:white;
+}
+.des{
+    position:absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+
+}
+.items{
+    position: relative;
+    width: 680px;
+    height: 200px;
+}
+#fish{ 
+    height:10em;
+    width:25em;
+}
