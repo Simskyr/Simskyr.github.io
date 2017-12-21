@@ -8,6 +8,9 @@ $(document).ready(function(){
         $("#info").toggle();
     });
         $(".bio").click(function(){
-        $("#bio").fadeIn();
+        $("#bio").toggle();
+    });        
+        $("button").click(function(){
+        $(".L").fadeToggle();
     });
 });
