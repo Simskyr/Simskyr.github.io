@@ -1,0 +1,9 @@
+ .q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9, .q10, .q2-choice, .q3-choice{
+    display:none;
+}
+.sidebar{
+    float: left;
+    width: 15%;
+    margin: 0px;
+}
+
