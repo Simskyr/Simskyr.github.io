@@ -61,13 +61,19 @@ var question3 = function(q2_choice){
     $("div.narrative, span.q3").html( q2_choice );
     $(".q3").show();
     $(".buttons").html("<button class='btn btn-primary q3-beach'>Do you try to stay and fight possibly even die</button>");
-    $(".buttons").append("<button class='btn btn-primary q3-beach'>Or do you leave going streight to BOB in his beach castle</button>");
+    $(".buttons").append("<button class='btn btn-primary q3-beach'>Or do you leave going straight to the BOB in his castle</button>");
 };
 
 $(".q3-beach").click(function(){
       $(".q3-choice").html("Beach").show();
-      question3(" ");
+      question5(" ");
   });
+  
+  $(".q3-beach").click(function(){
+      $(".q3-choice").html("Forest").show();
+      question5(" ");
+  });
+  
 var question4 = function(q2_choice){
     $("div.narrative, span.q3").html( q2_choice );
     $(".q4").show();
@@ -75,11 +81,14 @@ var question4 = function(q2_choice){
     $(".buttons").append("<button class='btn btn-primary q3-forest'>forest op 2</button>");
 };
 
-
+$(".q3-beach").click(function(){
+      $(".q3-choice").html("Beach").show();
+      question6(" ");
+  });
   
-  $(".q4-forest").click(function(){
-      $(".q4-choice").html("Forest").show();
-      question4(" ");
+  $(".q3-forest").click(function(){
+      $(".q3-choice").html("Forest").show();
+      question6(" ");
   });
   
 var displayChoice = function(finalAnswer, gameOption){
