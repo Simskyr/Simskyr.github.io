@@ -90,10 +90,11 @@ function init() {
 
 function update() {
     scene.clear();
-    checkCollisions();
+
     pad.checkKeys();
     pad2.update();
     pad.update();    
     ball.update();   
+    checkCollisions();
 }
 
